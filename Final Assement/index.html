@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishesh Patel</title>
+    <link rel="stylesheet" href="src/CSS/style.css">
+</head>
+<body>
+    <section class="me">
+        <div class="container">
+            
+            <img src="src/img/Vishesh Pic.png" 
+            alt="Vishu" class="profile">
+            <h1 class="text-uppercase font-weight-bold">Vishesh Dineshbhai Patel </h1>
+            <h4>Software Developer</h4>
+            <div class="actions flex-center">
+                <a href="src/resume/Resume.pdf" class="btn btn-primary mr-1 btn-hover">
+                    <ion-icon name="cloud-download" class="mr-50"></ion-icon>
+                    <span>Resume</span>
+                </a>
+                <a href="#contact-me" class="btn btn-hover">
+                    <ion-icon name="phone" class="mr-50"></ion-icon>
+                    <span>Contact me</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+    <section class="section-gap text-center alternate-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+            <div class="header">
+
+                <h2>About Me and Academic Honesty</h2>
+            </div>
+            <p class="honesty">I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.    
+            </p>
+            </br>
+            <div class="date"><h3>Date:  01 December 2022</h3></div>
+                   
+                     
+                
+            </div>
+            <div class="col-6">
+                <h2>Basic Information</h2>
+                <table class="table">
+                    <tr>
+                        <td>Student ID</td>
+                        <td>:</td>
+                        <td>
+                            154492219</td>
+                    </tr>
+                    <tr>
+                      <td>AGE</td>
+                      <td>:</td>
+                      <td>23</td>
+                    </tr>
+                    <tr>
+                      <td>E-Mail</td>
+                      <td>:</td>
+                      <td>vpatel251@myseneca.ca</td>
+                    </tr>
+                    <tr>
+                        <td>Language</td>
+                        <td>:</td>
+                        <td>English, Hindi, Gujarati</td>
+                    </tr>
+                    <tr>
+                        <td>Class Section</td>
+                        <td>:</td>
+                        <td>ZAA</td>
+                    </tr>
+                    <tr>
+                        <td>Instructor</td>
+                        <td>:</td>
+                        <td>Dr. Muath Alzghool</td>
+                    </tr>
+                  </table>
+            </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="education section-gap text-center">
+        <div class="container">
+            <div class="header">
+                <h2>Education Background</h2>
+            </div>
+            <div class="education-details">
+                <div class="education-card">
+                    <div class="row" >
+                        <div class="col-color col-5" style="padding: 1em;">
+                            <h3>2018 - 2021 (Completed)</h3>
+                        
+                        <h3>Higher School Diploma</h3>
+                        </div>
+                        <div class="col-7" style="padding: 1em;">
+                            <h2>Diploma in Computer Engineering</h2>
+                            <h3>Gujarat Technical University</h3>
+                        </br>
+                    </br>
+                            <p>
+                                Under the guidance  of <span>Miss.Jigisha trivedi</span> 
+                            </p></div>
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="education-card">
+                    <div class="row">
+                        <div class="col-color col-5" style="padding: 1em;"><h4>2022 - 2023 (expected)</h4>
+                        <h3> Diploma (Two-Year)</h3>
+                        </div>
+                        <div class="col-7" style="padding: 1em;">
+                            <h2>Computer Programming</h2>
+                            <h3>Seneca College</h3>
+                        </br>
+                    </br>
+                            <p>
+                                Under the guidance of <span>Dr. Muath Alzghool</span> 
+                            </p></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me section-gap text-center alternate-bg" id="contact-me">
+        <div class="container">
+            <div class="header">
+                <h2>Contact Me</h2>
+                
+            </div>
+            <form id="contact-form" action="https://httpbin.org/post" method="POST">
+                <div class="col">
+                    <div class="row-6 ">
+                        <div class="form-group">
+                            <label for=""><br>Enter Your Name : </label>
+                            <input type="text" name="name" placeholder="Please Type Name" class="form-control" required/>
+                        </div>
+                    </div>
+                    <div class="row-5">
+                        <div class="form-group">
+                            <label for=""><br>Enter Your Email Address : </label>
+                            <input type="email" name="email" placeholder="name123@example.com" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row-9">
+                        <div class="form-group">
+                            <label for=""><br>Enter Your Address : </label>
+                            <textarea name="address" rows="13" class="form-control" placeholder="Address" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row-2">
+                        <div class="form-group">
+                            <label for=""><br>City :</label>
+                            <input name="city" type="text" placeholder="Example. Toronto" class="form-control" list="cities" required/>
+                            <datalist id="cities">
+
+                                <option value="Ottawa">
+                                <option value="Toronto">
+                                <option value="Winnipeg">
+                                <option value="Calgary">
+                                <option value="Montreal">
+                                <option value="Vancouver">
+                              
+                              </datalist>
+                        </div>
+                        <div class="col-2">
+                            <div class="form-group">
+                                <label for=""><br>Province :</label>
+                                <input name="city" type="text" placeholder="Example. Toronto" class="form-control" list="cities" required/>
+                                <datalist id="cities">
+    
+                                    <option value="Ontario">
+                                    <option value="Alberta">
+                                    <option value="Manitoba">
+                                    <option value="Quebec">
+                                    <option value ="Saskatchewan"> 
+                                    <option value="New Brunswick">
+                                    <option value="British Columbia">
+                                  
+                                  </datalist>
+                            </div>
+                        <div class="form-group">
+                            <label for=""><br>Postal Code</label>
+                            <input name="postalcode" type="text" placeholder="EX: M1A 0Y1" class="form-control" required/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col - 10">
+                    <br><label for="" class="mr-2 mb-75 font-size-sm">Which Type of message ?</label><br>
+                   <input type="radio" id="html" name="Question" value="Question">
+                  <label for="Question">Question</label><br>
+                  <input type="radio" id="css" name="Comment" value="Comment">
+                  <label for="Comment">Comment</label><br>
+                  <input type="radio" id="javascript" name="Other" value="Other">
+                  <label for="Other">Other</label><br><br>
+                <div class="row">
+               <div class="row-25">
+                    <div class="form-group">
+                     <label for="">Enter Message :</label>
+                        <textarea name="message" rows="7" cols="40 " class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                          </div>
+                        </div>  
+                        <div class="text-center mt-1">
+                            <button type="submit" class="btn btn-sm btn-primary btn-curve m-auto font-weight-semi-bold">
+                                <ion-icon name="paper-plane" class="mr-50"></ion-icon>
+                                <span>Submit</span>
+                                
+                            </button>
+                            
+                        </div>
+                    
+            </form>
+        </div>
+    </section>  
+</body>
+</html>

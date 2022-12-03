@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+/* Typography */
+.text-center {
+  text-align: center;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-muted {
+  color: #212121;
+}
+
+.font-size-sm {
+  font-size: 0.875rem !important;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-semi-bold {
+  font-weight: 600;
+}
+
+/* Display */
+.d-flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Spacing */
+.my-1 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-75 {
+  margin-bottom: 0.75rem !important;
+}
+
+.mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.mr-1 {
+  margin-right: 1rem;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.mr-50 {
+  margin-right: 0.5rem;
+}
+
+.ml-50 {
+  margin-left: 0.5rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.m-auto {
+  margin: auto !important;
+}
+
+.section-gap {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+/* Colors */
+.alternate-bg {
+  background-color: #fffff0c0;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bceb3c;
+  color: #212121;
+  line-height: 1.2;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #212121(255, 157, 0, 0.479);
+  border-radius: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+ion-icon {
+  font-size: 1rem;
+}
+
+input,
+select,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+  color: #212121;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  background-color: #000000;
+  color: #fffbec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn.btn-curve {
+  border-radius: 0.5rem;
+}
+.btn.btn-primary {
+  background-color: #000000;
+  color: #fffaec;
+}
+.btn.btn-light {
+  background-color: #fd5e53;
+  color: #b0eacd;
+}
+.btn.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+.btn.btn-sm.btn-curve {
+  border-radius: 0.25rem;
+}
+
+.btn-hover:hover{
+  background-color: #757575;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 0.625rem;
+}
+.form-group label {
+  display: block;
+  width: 100%;
+  color: #212121;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.form-radio-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form-radio-group label {
+  font-size: 0.875rem;
+}
+.form-radio-group > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-radio-group > div label {
+  padding-left: 0.5rem;
+  margin: 0;
+  color: #ffffec;
+}
+
+.form-control {
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.875rem;
+  background-color: #f9fcfb;
+}
+
+.alternate-bg .form-control {
+  background-color: #f9fcfb
+}
+
+@media (min-width: 992px) {
+  .row {
+    display: flex;
+    
+  }
+  .row > div {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  .col-7 {
+    flex: 7;
+  }
+
+  .col-5 {
+    flex: 5;
+  }
+
+  .col-6 {
+    flex: 6;
+  }
+
+  .col-12 {
+    flex: 12;
+  }
+}
+.toast {
+  min-width: 256px;
+  bottom: 32px;
+  border-radius: 0.25rem;
+  background-color: #2a2722;
+  box-shadow: 0 5px 24px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  font-size: 0.875rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.toast.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.5s, fadeOut 0.5s 3.5s;
+  animation: fadeIn 0.5s, fadeOut 0.5s 3.5s;
+}
+.toast.toast-danger {
+  background-color: #f9fcfb;
+  color: white;
+}
+
+@keyframes fadeIn {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 32px;
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    bottom: 32px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+section .header {
+  margin-bottom: 1.5rem;
+}
+section .header h2 {
+  margin-bottom: 0.5rem;
+}
+section .header p {
+  color: #21bf73;
+  font-size: 0.875rem;
+}
+section p {
+  line-height: 1.5;
+  color: #d8d5c7;
+  text-align: justify;
+}
+
+section.me {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.me .container {
+  text-align: center;
+}
+section.me img.profile {
+  max-height: 324px;
+  max-width: 324px;
+  border-radius: 0.25rem;
+}
+section.me h1 {
+  margin: 1.5rem auto 1rem auto;
+  font-size: 1.75rem;
+}
+section.me .actions {
+  margin-top: 2.5rem;
+}
+section.me .social-icons {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.me .social-icons .social {
+  height: 42px;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #2a2622;
+  margin: 0 0.5rem;
+}
+section.me .social-icons .social ion-icon {
+  font-size: 1.25rem;
+}
+.date{
+  text-align: left !important;
+}
+.honesty{
+  color: #692700;
+}
+.table{
+  text-align: left !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  font-weight: 600;
+}
+td{
+  padding: 5px;
+}
+
+.col-color{
+  background-color: #7cbd1e!important;
+}
+section.education .education-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section.education .education-card {
+  flex: 1;
+  width: 800px;
+  
+  margin: 0.5rem 1rem;
+  background-color:#f9fcfb;
+  border-radius: 0.25rem;
+  text-align: left;
+  box-shadow: 0 6px 24px #f9fcfb(0, 0, 0, 0.04);
+}
+section.education .education-card h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #212121;
+}
+section.education .education-card h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+section.education .education-card p {
+  font-size: 0.875rem;
+}
+
+section.contact-me form {
+  margin: auto;
+  max-width: 724px;
+  text-align: left;
+}
+
+
